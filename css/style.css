@@ -1,0 +1,48 @@
+body {
+  background-color: bisque;
+}
+
+.container {
+  background-color: bisque;
+  width: 90%;
+  margin: auto;
+}
+
+.board {
+  background-color: blue;
+  width: 700px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dot {
+  border: 1px solid black;
+  flex: 14%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  height: 80%;
+  width: 80%;
+  background-color: bisque;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: 8px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+#message h2 {
+  text-align: center;
+}
